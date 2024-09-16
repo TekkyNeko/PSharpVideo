@@ -135,7 +135,6 @@ namespace PSharpVideo
 		{
 			if(isMasterLocked)
 			{
-				Debug.Log("Master Locked!");
 				masterLockIcons[0].SetActive(true);
 				masterLockIcons[1].SetActive(false);
 
@@ -152,7 +151,6 @@ namespace PSharpVideo
 				}
 				else
 				{
-					Debug.Log("You are Master!");
 					urlInput.interactable = true;
 					timelineSlider.interactable = true;
 					loopButton.interactable = true;
@@ -164,7 +162,6 @@ namespace PSharpVideo
 			}
 			else
 			{
-				Debug.Log("Master Unlocked!");
 				masterLockIcons[0].SetActive(false);
 				masterLockIcons[1].SetActive(true);
 
@@ -201,7 +198,7 @@ namespace PSharpVideo
 
 		public void Awake()
 		{
-			urlInput.onValueChanged.AddListener((url) => 
+			urlInput.onSubmit.AddListener((url) => 
 			{
 				if(!IsObjectOwner)
 					PSharpNetworking.SetOwner(PSharpPlayer.LocalPlayer, gameObject);
@@ -225,7 +222,6 @@ namespace PSharpVideo
 				
 				urlInput.SetTextWithoutNotify(string.Empty);
 			});
-
 			pauseResumeButton.onClick.AddListener(() => 
 			{
 				if(isMasterLocked)
@@ -430,10 +426,10 @@ namespace PSharpVideo
 			if(!string.IsNullOrEmpty(video) && IsObjectOwner )	_currentUrl = video;
 
 			// This is a workaround for a bug in Poligon
-      foreach (GameObject obj in infoObjects)
-			{
-				obj.SetActive(!obj.activeSelf);
-			}
+      // foreach (GameObject obj in infoObjects)
+			// {
+				// obj.SetActive(!obj.activeSelf);
+			// }
     }
     public override void OnMasterChanged(PSharpPlayer newMaster)
     {
