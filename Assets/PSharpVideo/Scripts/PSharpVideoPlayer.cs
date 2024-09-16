@@ -48,7 +48,6 @@ namespace PSharpVideo
 
 		[Space]
 
-		public TMP_Text placeholderText;
 		public TMP_Text statusText;
 		public TMP_Text masterName;
 		public TMP_Text videoOwner;
@@ -147,7 +146,7 @@ namespace PSharpVideo
 					pauseResumeButton.interactable = false;
 					masterLockButton.interactable = false;
 
-					placeholderText.text = $"Only {_masterName} can control the video player";
+					urlInput.placeholder.GetComponent<TMP_Text>().text = $"Only {_masterName} can control the video player";
 				}
 				else
 				{
@@ -157,7 +156,7 @@ namespace PSharpVideo
 					pauseResumeButton.interactable = true;
 					masterLockButton.interactable = true;
 
-					placeholderText.text = "Enter Video URL...";
+					urlInput.placeholder.GetComponent<TMP_Text>().text = "Enter Video URL...";
 				}
 			}
 			else
@@ -178,7 +177,7 @@ namespace PSharpVideo
 				{
 					masterLockButton.interactable = false;
 				}
-				placeholderText.text = "Enter Video URL...";
+				urlInput.placeholder.GetComponent<TMP_Text>().text = "Enter Video URL...";
 			}
 		}
 
