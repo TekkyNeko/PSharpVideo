@@ -424,12 +424,6 @@ namespace PSharpVideo
 			_masterName = PSharpPlayer.MasterPlayer.Username;
 			masterName.text = _masterName;
 			if(!string.IsNullOrEmpty(video) && IsObjectOwner )	_currentUrl = video;
-
-			// This is a workaround for a bug in Poligon
-      // foreach (GameObject obj in infoObjects)
-			// {
-				// obj.SetActive(!obj.activeSelf);
-			// }
     }
     public override void OnMasterChanged(PSharpPlayer newMaster)
     {
