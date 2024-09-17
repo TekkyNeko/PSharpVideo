@@ -5667,8 +5667,8 @@ GameObject:
   - component: {fileID: 4314323731136461975}
   - component: {fileID: 1360974873946187917}
   - component: {fileID: 2497186280631681270}
-  - component: {fileID: 8256142765288113531}
-  - component: {fileID: 1131248231194999784}
+  - component: {fileID: 7906225988090668950}
+  - component: {fileID: 9204760264714999283}
   m_Layer: 0
   m_Name: PSharpVideo
   m_TagString: Untagged
@@ -5760,7 +5760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f2bd93a86ccd3b42a67f8acf30b9363, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PSharpProgram: {fileID: 8256142765288113531}
+  PSharpProgram: {fileID: 7906225988090668950}
   interactText: Interact
   maxInteractDistance: 2
   hideHighlight: 0
@@ -5781,8 +5781,8 @@ MonoBehaviour:
   - {fileID: 1375021122285055758}
   - {fileID: 1139918763674661769}
   muteIcons:
-  - {fileID: 391831773268996124}
   - {fileID: 2127549935527833834}
+  - {fileID: 391831773268996124}
   pauseResumeIcons:
   - {fileID: 7281663375695972842}
   - {fileID: 514679066560205294}
@@ -5798,7 +5798,7 @@ MonoBehaviour:
   iconInvertedColor: {r: 0, g: 0, b: 0, a: 0.8}
   whiteGraphicColor: {r: 0.9433, g: 0.9433, b: 0.9433, a: 1}
   buttonBackgroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 0.78039217}
---- !u!114 &8256142765288113531
+--- !u!114 &7906225988090668950
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5812,7 +5812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   programAsset: {fileID: 11400000, guid: ac41657524ce1344b884d86ed9d76b6c, type: 2}
   type: PSharpVideo.PSharpVideoPlayer
-  pSharpNetworkedObject: {fileID: 1131248231194999784}
+  pSharpNetworkedObject: {fileID: 9204760264714999283}
   pSharpBehaviour: {fileID: 2497186280631681270}
   pSharpProxy: {fileID: 0}
   variables:
@@ -7558,8 +7558,8 @@ MonoBehaviour:
     enumArrayValue: 
     objectValue: {fileID: 0}
     objectArrayValue:
-    - {fileID: 391831773268996124}
     - {fileID: 2127549935527833834}
+    - {fileID: 391831773268996124}
   - fieldName: pauseResumeIcons
     typeFullName: UnityEngine.GameObject[]
     typeAsString: UnityEngine.GameObject[], UnityEngine.CoreModule
@@ -8958,7 +8958,7 @@ MonoBehaviour:
   interactText: Interact
   maxInteractDistance: 2
   hideHighlight: 0
---- !u!114 &1131248231194999784
+--- !u!114 &9204760264714999283
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

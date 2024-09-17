@@ -141,7 +141,7 @@ PrefabInstance:
     - target: {fileID: 4546112747667867506, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
       propertyPath: _dummy
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 868079233}
     - target: {fileID: 4546112747667867506, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
       propertyPath: isShowingStats
       value: 1
@@ -164,7 +164,7 @@ PrefabInstance:
       objectReference: {fileID: 963194227}
     - target: {fileID: 4546112747667867506, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
       propertyPath: _dependencies.Array.size
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 4546112747667867506, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
       propertyPath: _dependencies.Array.data[0]
@@ -289,11 +289,11 @@ PrefabInstance:
     - target: {fileID: 4546112747667867506, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
       propertyPath: _dependencies.Array.data[30]
       value: 
-      objectReference: {fileID: 9100000, guid: 8ccad742129c50f4cbd6b442ca9efd81, type: 2}
+      objectReference: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     - target: {fileID: 4546112747667867506, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
       propertyPath: _dependencies.Array.data[31]
       value: 
-      objectReference: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+      objectReference: {fileID: 2800000, guid: eb116d1688b9cac4fb160c69bd6e9690, type: 3}
     - target: {fileID: 4546112747667867506, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
       propertyPath: _dependencies.Array.data[32]
       value: 
@@ -340,9 +340,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4546112747667867507, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 868079234}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
+--- !u!4 &44024112 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4546112747667867507, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
+  m_PrefabInstance: {fileID: 44024111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &281748568
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,6 +551,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &868079233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 868079234}
+  m_Layer: 0
+  m_Name: Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &868079234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868079233}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 44024112}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,6 +706,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2497186280631681270, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      propertyPath: muteIcons.Array.data[0]
+      value: 
+      objectReference: {fileID: 2574268980814969763}
+    - target: {fileID: 2497186280631681270, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      propertyPath: muteIcons.Array.data[1]
+      value: 
+      objectReference: {fileID: 2574268980814969762}
     - target: {fileID: 6681343760332841987, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
       propertyPath: m_Name
       value: PSharpVideo
@@ -715,11 +762,3426 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8256142765288113531, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+    - {fileID: 1131248231194999784, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6681343760332841987, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2574268980814969789}
+    - targetCorrespondingSourceObject: {fileID: 6681343760332841987, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2574268980814969788}
   m_SourcePrefab: {fileID: 100100000, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+--- !u!1 &2574268980814969762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 391831773268996124, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2574268980814969763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2127549935527833834, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2574268980814969764 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6681343760332841987, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2574268980814969765 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8856468512495749890, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969766 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4537009606308285973, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &2574268980814969767 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2362520292374083480, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2574268980814969768 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5745320177688775666, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969769 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5366545158031921944, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969770 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4719208404888878386, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2574268980814969771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7742681554327954866, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2574268980814969772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 514679066560205294, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2574268980814969773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7281663375695972842, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2574268980814969774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1139918763674661769, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2574268980814969775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1375021122285055758, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2574268980814969776 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6740343754874765827, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969777 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3662512015518400558, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969778 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3412672267579922361, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969779 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5867879568829931180, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969780 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8151701749345691194, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969781 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2740678173158934550, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969782 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3512429248901557947, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969783 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8488801913690997874, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969784 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1457406423147239900, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969785 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 430852548874848697, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969786 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2497186280631681270, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574268980814969764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f2bd93a86ccd3b42a67f8acf30b9363, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969787 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1360974873946187917, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+  m_PrefabInstance: {fileID: 2574268980814969761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574268980814969764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1416397188, guid: 6182bd482e1b9a94e9148fd18381b8fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2574268980814969788
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574268980814969764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1000597861, guid: 5f20141248a4dc040a0060f5893b9b74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proxies: []
+  ID: 0
+  OwnerID: 0
+--- !u!114 &2574268980814969789
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574268980814969764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1394590517, guid: 5f20141248a4dc040a0060f5893b9b74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  programAsset: {fileID: 11400000, guid: ac41657524ce1344b884d86ed9d76b6c, type: 2}
+  type: PSharpVideo.PSharpVideoPlayer
+  pSharpNetworkedObject: {fileID: 2574268980814969788}
+  pSharpBehaviour: {fileID: 2574268980814969786}
+  pSharpProxy: {fileID: 0}
+  variables:
+  - fieldName: isMasterLocked
+    typeFullName: System.Boolean
+    typeAsString: System.Boolean, mscorlib
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 0}
+    objectArrayValue: []
+  - fieldName: video
+    typeFullName: System.String
+    typeAsString: System.String, mscorlib
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 0}
+    objectArrayValue: []
+  - fieldName: videoProvider
+    typeFullName: PVR.CCK.Worlds.Components.PVR_VideoProvider
+    typeAsString: PVR.CCK.Worlds.Components.PVR_VideoProvider, PVR.CCK.Worlds
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969787}
+    objectArrayValue: []
+  - fieldName: urlInput
+    typeFullName: TMPro.TMP_InputField
+    typeAsString: TMPro.TMP_InputField, Unity.TextMeshPro
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969785}
+    objectArrayValue: []
+  - fieldName: currentVideo
+    typeFullName: TMPro.TMP_InputField
+    typeAsString: TMPro.TMP_InputField, Unity.TextMeshPro
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969784}
+    objectArrayValue: []
+  - fieldName: lastVideo
+    typeFullName: TMPro.TMP_InputField
+    typeAsString: TMPro.TMP_InputField, Unity.TextMeshPro
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969783}
+    objectArrayValue: []
+  - fieldName: infoButton
+    typeFullName: UnityEngine.UI.Button
+    typeAsString: UnityEngine.UI.Button, UnityEngine.UI
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969782}
+    objectArrayValue: []
+  - fieldName: reloadButton
+    typeFullName: UnityEngine.UI.Button
+    typeAsString: UnityEngine.UI.Button, UnityEngine.UI
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969781}
+    objectArrayValue: []
+  - fieldName: loopButton
+    typeFullName: UnityEngine.UI.Button
+    typeAsString: UnityEngine.UI.Button, UnityEngine.UI
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969780}
+    objectArrayValue: []
+  - fieldName: masterLockButton
+    typeFullName: UnityEngine.UI.Button
+    typeAsString: UnityEngine.UI.Button, UnityEngine.UI
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969779}
+    objectArrayValue: []
+  - fieldName: muteButton
+    typeFullName: UnityEngine.UI.Button
+    typeAsString: UnityEngine.UI.Button, UnityEngine.UI
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969778}
+    objectArrayValue: []
+  - fieldName: pauseResumeButton
+    typeFullName: UnityEngine.UI.Button
+    typeAsString: UnityEngine.UI.Button, UnityEngine.UI
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969777}
+    objectArrayValue: []
+  - fieldName: timelineSlider
+    typeFullName: UnityEngine.UI.Slider
+    typeAsString: UnityEngine.UI.Slider, UnityEngine.UI
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969776}
+    objectArrayValue: []
+  - fieldName: masterLockIcons
+    typeFullName: UnityEngine.GameObject[]
+    typeAsString: UnityEngine.GameObject[], UnityEngine.CoreModule
+    isArray: 1
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 0}
+    objectArrayValue:
+    - {fileID: 2574268980814969775}
+    - {fileID: 2574268980814969774}
+  - fieldName: muteIcons
+    typeFullName: UnityEngine.GameObject[]
+    typeAsString: UnityEngine.GameObject[], UnityEngine.CoreModule
+    isArray: 1
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 0}
+    objectArrayValue:
+    - {fileID: 2574268980814969763}
+    - {fileID: 2574268980814969762}
+  - fieldName: pauseResumeIcons
+    typeFullName: UnityEngine.GameObject[]
+    typeAsString: UnityEngine.GameObject[], UnityEngine.CoreModule
+    isArray: 1
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 0}
+    objectArrayValue:
+    - {fileID: 2574268980814969773}
+    - {fileID: 2574268980814969772}
+  - fieldName: infoObjects
+    typeFullName: UnityEngine.GameObject[]
+    typeAsString: UnityEngine.GameObject[], UnityEngine.CoreModule
+    isArray: 1
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 0}
+    objectArrayValue:
+    - {fileID: 2574268980814969771}
+  - fieldName: statusText
+    typeFullName: TMPro.TMP_Text
+    typeAsString: TMPro.TMP_Text, Unity.TextMeshPro
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969770}
+    objectArrayValue: []
+  - fieldName: masterName
+    typeFullName: TMPro.TMP_Text
+    typeAsString: TMPro.TMP_Text, Unity.TextMeshPro
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969769}
+    objectArrayValue: []
+  - fieldName: videoOwner
+    typeFullName: TMPro.TMP_Text
+    typeAsString: TMPro.TMP_Text, Unity.TextMeshPro
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969768}
+    objectArrayValue: []
+  - fieldName: speaker
+    typeFullName: UnityEngine.AudioSource
+    typeAsString: UnityEngine.AudioSource, UnityEngine.AudioModule
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969767}
+    objectArrayValue: []
+  - fieldName: loopButtonIcon
+    typeFullName: UnityEngine.UI.Graphic
+    typeAsString: UnityEngine.UI.Graphic, UnityEngine.UI
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969766}
+    objectArrayValue: []
+  - fieldName: loopButtonBackground
+    typeFullName: UnityEngine.UI.Graphic
+    typeAsString: UnityEngine.UI.Graphic, UnityEngine.UI
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 2574268980814969765}
+    objectArrayValue: []
+  - fieldName: buttonActivatedColor
+    typeFullName: UnityEngine.Color
+    typeAsString: UnityEngine.Color, UnityEngine.CoreModule
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 1, g: 1, b: 1, a: 1}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 0}
+    objectArrayValue: []
+  - fieldName: iconInvertedColor
+    typeFullName: UnityEngine.Color
+    typeAsString: UnityEngine.Color, UnityEngine.CoreModule
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0, g: 0, b: 0, a: 0.8}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 0}
+    objectArrayValue: []
+  - fieldName: whiteGraphicColor
+    typeFullName: UnityEngine.Color
+    typeAsString: UnityEngine.Color, UnityEngine.CoreModule
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0.9433, g: 0.9433, b: 0.9433, a: 1}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 0}
+    objectArrayValue: []
+  - fieldName: buttonBackgroundColor
+    typeFullName: UnityEngine.Color
+    typeAsString: UnityEngine.Color, UnityEngine.CoreModule
+    isArray: 0
+    unknownVariableType: 0
+    stringValue: 
+    stringArrayValue: []
+    charValue: 0
+    charArrayValue: 
+    floatValue: 0
+    floatArrayValue: []
+    doubleValue: 0
+    doubleArrayValue: []
+    sbyteValue: 0
+    sbyteArrayValue: 
+    byteValue: 0
+    byteArrayValue: 
+    int16Value: 0
+    int16ArrayValue: 
+    int32Value: 0
+    int32ArrayValue: 
+    int64Value: 0
+    int64ArrayValue: 
+    uint16Value: 0
+    uint16ArrayValue: 
+    uint32Value: 0
+    uint32ArrayValue: 
+    uint64Value: 0
+    uint64ArrayValue: 
+    boolValue: 0
+    boolArrayValue: 
+    colorValue: {r: 0.2, g: 0.2, b: 0.2, a: 0.78039217}
+    colorArrayValue: []
+    color32Value:
+      serializedVersion: 2
+      rgba: 0
+    color32ArrayValue: []
+    vector2Value: {x: 0, y: 0}
+    vector2ArrayValue: []
+    vector2IntValue: {x: 0, y: 0}
+    vector2IntArrayValue: []
+    vector3Value: {x: 0, y: 0, z: 0}
+    vector3ArrayValue: []
+    vector3IntValue: {x: 0, y: 0, z: 0}
+    vector3IntArrayValue: []
+    vector4Value: {x: 0, y: 0, z: 0, w: 0}
+    vector4ArrayValue: []
+    quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+    quaternionArrayValue: []
+    animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    animationCurveArrayValue: []
+    gradientValue:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientArrayValue: []
+    layerMaskValue:
+      serializedVersion: 2
+      m_Bits: 0
+    layerMaskArrayValue: []
+    boundsValue:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    boundsArrayValue: []
+    boundsIntValue:
+      m_Position: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0, z: 0}
+    boundsIntArrayValue: []
+    rectValue:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectArrayValue: []
+    rectIntValue:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rectIntArrayValue: []
+    enumValue: 0
+    enumArrayValue: 
+    objectValue: {fileID: 0}
+    objectArrayValue: []
+  interactText: Interact
+  maxInteractDistance: 2
+  hideHighlight: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
