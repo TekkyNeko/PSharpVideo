@@ -83,7 +83,7 @@ namespace PSharpVideo
 		private void OnURLChanged() 
 		{
 
-			if (!string.IsNullOrEmpty(_currentUrl) && !_isPaused)
+			if (!string.IsNullOrEmpty(_currentUrl))
 			{
 				currentVideo.text = _currentUrl;
 				videoProvider.Play(_currentUrl);
@@ -390,7 +390,7 @@ namespace PSharpVideo
 
 		private void ReloadVideo() 
 		{
-			if (!string.IsNullOrEmpty(_currentUrl) && !_isPaused)
+			if (!string.IsNullOrEmpty(_currentUrl))
 			{
 				reloadButton.GetComponent<Animator>().SetTrigger("Rotate");
 				videoProvider.Play(_currentUrl);

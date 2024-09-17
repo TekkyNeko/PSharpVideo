@@ -141,7 +141,7 @@ PrefabInstance:
     - target: {fileID: 4546112747667867506, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
       propertyPath: _dummy
       value: 
-      objectReference: {fileID: 868079233}
+      objectReference: {fileID: 0}
     - target: {fileID: 4546112747667867506, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
       propertyPath: isShowingStats
       value: 1
@@ -340,17 +340,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 4546112747667867507, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 868079234}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
---- !u!4 &44024112 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4546112747667867507, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
-  m_PrefabInstance: {fileID: 44024111}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &281748568
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,37 +543,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &868079233
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 868079234}
-  m_Layer: 0
-  m_Name: Dummy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &868079234
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868079233}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.053}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 44024112}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,18 +663,14 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2013532923015090368, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      propertyPath: m_text
+      value: PSharpVideo v1.0.1 (Made by Pokeduel, Custom UI by DrBlackRat)
+      objectReference: {fileID: 0}
     - target: {fileID: 2027119743891952581, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2497186280631681270, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
-      propertyPath: muteIcons.Array.data[0]
-      value: 
-      objectReference: {fileID: 2574268980814969763}
-    - target: {fileID: 2497186280631681270, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
-      propertyPath: muteIcons.Array.data[1]
-      value: 
-      objectReference: {fileID: 2574268980814969762}
     - target: {fileID: 6681343760332841987, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
       propertyPath: m_Name
       value: PSharpVideo
@@ -763,17 +720,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 8256142765288113531, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
-    - {fileID: 1131248231194999784, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+    - {fileID: 406606702308795804, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+    - {fileID: 6267448387782687493, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6681343760332841987, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2574268980814969789}
+      addedObject: {fileID: 2574268980814969796}
     - targetCorrespondingSourceObject: {fileID: 6681343760332841987, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2574268980814969788}
+      addedObject: {fileID: 2574268980814969795}
   m_SourcePrefab: {fileID: 100100000, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
 --- !u!1 &2574268980814969762 stripped
 GameObject:
@@ -1007,7 +964,7 @@ MonoBehaviour:
   m_Script: {fileID: -1416397188, guid: 6182bd482e1b9a94e9148fd18381b8fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2574268980814969788
+--- !u!114 &2574268980814969795
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1022,7 +979,7 @@ MonoBehaviour:
   proxies: []
   ID: 0
   OwnerID: 0
---- !u!114 &2574268980814969789
+--- !u!114 &2574268980814969796
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1036,7 +993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   programAsset: {fileID: 11400000, guid: ac41657524ce1344b884d86ed9d76b6c, type: 2}
   type: PSharpVideo.PSharpVideoPlayer
-  pSharpNetworkedObject: {fileID: 2574268980814969788}
+  pSharpNetworkedObject: {fileID: 2574268980814969795}
   pSharpBehaviour: {fileID: 2574268980814969786}
   pSharpProxy: {fileID: 0}
   variables:
