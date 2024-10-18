@@ -363,7 +363,7 @@ namespace PSharpVideo
 				statusText.text = string.Empty;
 				
 				videoProvider.videoPlayer.time = _time;
-
+				_isPaused = false;
 				_videoLength = GetTime(videoProvider.videoPlayer.frameCount / videoProvider.videoPlayer.frameRate);
 				statusText.text = $"{GetTime(videoProvider.videoPlayer.time)} / {_videoLength}";
 

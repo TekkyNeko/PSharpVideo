@@ -141,7 +141,7 @@ PrefabInstance:
     - target: {fileID: 4546112747667867506, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
       propertyPath: _dummy
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1504584386}
     - target: {fileID: 4546112747667867506, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
       propertyPath: isShowingStats
       value: 1
@@ -340,7 +340,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4546112747667867507, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1504584387}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
 --- !u!1 &281748568
@@ -635,6 +638,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1504584386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504584387}
+  m_Layer: 0
+  m_Name: Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1504584387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504584386}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1609344517}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1609344517 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4546112747667867507, guid: fe6d48943d3ac654f98bfef65566499a, type: 3}
+  m_PrefabInstance: {fileID: 44024111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2574268980814969761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -663,13 +702,37 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2013532923015090368, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
-      propertyPath: m_text
-      value: PSharpVideo v1.0.1 (Made by Pokeduel, Custom UI by DrBlackRat)
-      objectReference: {fileID: 0}
     - target: {fileID: 2027119743891952581, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867879568829931180, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867879568829931180, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867879568829931180, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2574268980814969786}
+    - target: {fileID: 5867879568829931180, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867879568829931180, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MasterLock
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867879568829931180, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PSharpVideo.PSharpVideoPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867879568829931180, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6681343760332841987, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
       propertyPath: m_Name
@@ -720,8 +783,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 406606702308795804, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
-    - {fileID: 6267448387782687493, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+    - {fileID: 3936188309232777877, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
+    - {fileID: 2845259025822255233, guid: 0caf2e4ba3c8ae544bc7723fd934bfd9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:

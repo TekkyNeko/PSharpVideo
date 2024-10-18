@@ -13,8 +13,8 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.poligonvr.core": "0.2.3",
-        "com.poligonvr.worlds": "0.3.6",
+        "com.poligonvr.core": "0.2.7",
+        "com.poligonvr.worlds": "0.4.5",
         "com.unity.inputsystem": "1.7.0"
       }
     },
@@ -23,7 +23,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.poligonvr.core": "0.2.3"
+        "com.poligonvr.core": "0.2.7"
       }
     },
     "com.unity.collab-proxy": {
