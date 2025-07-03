@@ -88,7 +88,7 @@ namespace PSharpVideo
 		{
             if (!videoProvider.isLiveStream)
             {
-                Debug.Log($"Playback rate changed, new value is {playbackRate}");
+                Debug.Log($"[PSharpVideo] Playback rate changed, new value is {playbackRate}");
 				videoProvider.PlaybackRate = playbackRate;
             }
 			else
@@ -100,10 +100,11 @@ namespace PSharpVideo
 
         private void OnURLChanged() 
 		{
-			Debug.Log($"URL Changed: {_currentUrl}");
+			Debug.Log($"[PSharpVideo] URL Changed: {_currentUrl}");
 			if (!string.IsNullOrWhiteSpace(_currentUrl))
 			{
 				currentVideo.text = _currentUrl;
+				_time = 0;
 				videoProvider.PlayURL(_currentUrl);
 			}
 		}
@@ -125,20 +126,16 @@ namespace PSharpVideo
 
 		private void OnVideoOwnerChanged()
 		{
-			Debug.Log("Video Owner Changed");
 			videoOwner.text = _videoOwnerName;
 		}
 
 		private void OnLastVideoChanged()
 		{
-			Debug.Log("Last Video Changed");
-
 			lastVideo.text = _lastVideo;
 		}
 
 		private void OnPlayPauseChanged()
 		{
-			Debug.Log("PlayPause Changed");
 			if(_isPaused)
 			{
 				pauseResumeIcons[0].SetActive(true);
@@ -155,8 +152,6 @@ namespace PSharpVideo
 
 		private void OnMasterLockChanged()
 		{
-			Debug.Log("Master Lock Changed");
-
 			if (isMasterLocked)
 			{
 				masterLockIcons[0].SetActive(true);
@@ -551,7 +546,7 @@ namespace PSharpVideo
 
                     if (IsOwner)
                     {
-                        _time = videoProvider.Time;
+                        _time = videoProvider.Time;						
                     }
                 }
 
@@ -559,7 +554,7 @@ namespace PSharpVideo
             }
         }
 
-        public override void OnNetworkReady()
+		public override void OnNetworkReady()
 		{
 			_masterName = PSharpPlayer.MasterPlayer.Username;
 			masterName.text = _masterName;

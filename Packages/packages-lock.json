@@ -14,8 +14,8 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.poligonvr.core": "0.4.6",
-        "com.poligonvr.worlds": "0.7.0",
+        "com.poligonvr.core": "0.4.7",
+        "com.poligonvr.worlds": "0.7.1",
         "com.unity.inputsystem": "1.7.0"
       }
     },
@@ -24,7 +24,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.poligonvr.core": "0.4.6"
+        "com.poligonvr.core": "0.4.7"
       }
     },
     "com.unity.burst": {
